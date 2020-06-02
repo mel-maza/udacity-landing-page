@@ -1,13 +1,16 @@
 # Landing Page Project
+This is the landing page project of the udacity frontend developer course.
+The project shows a landing page with dynamical navigation.
+The navigation bar is automatically expanded when new sections are added to the index.html file. You can navigate to a specific section by clicking on the appropriate navbar list element. When scrolling to a specific section, the navbar highlights the visible section.
 
-## Table of Contents
+## Project Setup
+* Open the `index.html` - file in a browser (chrome is recommended)
 
-* [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## What You're Getting
+```bash
+├── README.md - This file.
+├── index.html # Page where it all starts
+└── css # contains everything needed for styling
+    └── styles.css # contains the styling for the index.html file
+└── js # contains everything needed for dynamic changes
+    └── app.js # contains dynamic changes due to browser events
