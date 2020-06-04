@@ -126,7 +126,8 @@ const scrollToSection = (sectionIdToScrollTo) => {
     const navbarHeight = navbar ?  navbar.offsetHeight : 0;
     sectionToScrollTo && setTimeout(() => window.scrollTo({
         top: sectionToScrollTo.offsetTop - navbarHeight, 
-        left: sectionToScrollTo.offsetLeft
+        left: sectionToScrollTo.offsetLeft,
+        behavior: "smooth"
     }), 20);
 };
 
